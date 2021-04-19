@@ -69,6 +69,18 @@ Currently there are some things not possible to show, partially because I didn't
   - > Quotes
   - Break Lines
 
+## How to edit the documentation
+You can change the content however you want, for example by using a plain text editor.
+But there are two things to think about, especilly if you want your docs to work on github AND in godot: Links and Images.
+
+The best practice is to use relative links (like "./image" if the image is in the same folder like the document) for both. If you are working on github, you can alternativly use the github links, the scripts can handle them in godot.
+
+In both cases it is good to NOT USE SPACES in the filenames. Github has a problem with them because links cannot contain spaces.
+
+Two make editing the docs from godot easier, the DocsPageViewer has a enable_editing variable exported. Look for the DocsPageViewer you are using in your plugin. Enable the setting. There are two buttons in the corner now. Refresh and Edit. They can speed up your work quite a lot.
+![grafik](https://user-images.githubusercontent.com/42868150/115277771-f4181880-a144-11eb-89ab-f69dddaf6893.png)
+
+
 ## Background
 This was originally created for the dialogic plugin by emilio coppola. 
 I took some code from the file editor plugin by [(FenixHub)](https://github.com/fenix-hub/godot-engine.file-editor).
