@@ -12,7 +12,7 @@ This repository is supposed to be something you can add to your plugin as fast a
 To use this, download the repository. Add the Documentation folder to your plugins folder.
 
 Before starting to use the files you should add the DocsHelper singleton.
-Do this in the \_ready() func of your plugin script:
+Do this in the \_ready() func or the \_enter_tree() func of your plugin script:
 `add_autoload_singleton('DocsHelper', "res://addons/<YourPluginName>/Documentation/Scripts/DocsHelper.gd")`
 
 All the content you want to show in your documentation goes into the subfolder 'Content'.
