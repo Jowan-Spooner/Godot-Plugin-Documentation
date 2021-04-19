@@ -44,7 +44,7 @@ Links can be quite compley:
     E.g.: "https://github.com/Jowan-Spooner/dialogic/blob/plugin-docs/addons/dialogic/Documentation/Content/Tutorials/Images/Event_Choice.PNG" will work just fine, because it is contained in the Content folder. Godot will look at "res://addons/.../Documentation/Content/Tutorials/Images/Event_Choice.PNG"
     Through this, these links can work on github as well as in godot.
   - If they are just text (a godot path), the viewer will emit a signal.
-    This signal can be easily interpreted as a open call, so that the page will be opened with the viewer.
+    This signal can be easily interpreted as an open call, so that the page will be opened with the viewer.
 
 Images can also have both links from inside the Contents folder or their corresponding github links. This way images can also work both on github and inside godot.
 
