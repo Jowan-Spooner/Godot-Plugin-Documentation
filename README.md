@@ -2,6 +2,10 @@
 
 A simple way to add documentation to a plugin/addon.
 
+*The documentation used in the dialogic plugin (WIP):* 
+![grafik](https://user-images.githubusercontent.com/42868150/115240238-d4222e00-a11f-11eb-98d1-5a3495192519.png)
+
+
 ## How to use
 This repository is supposed to be something you can add to your plugin as fast as possible.
 
