@@ -1,6 +1,8 @@
 # Easy Godot Plugin/Addon Documentation
 
 A simple way to add documentation to a plugin/addon.
+⚠️ *Disclaimer: This is a work in progress. You can use it however you would like. But don't blame me if something doesn't work.*
+This is supposed to work with a plugin that uses a main editor view!
 
 *The documentation used in the dialogic plugin (WIP):* 
 ![grafik](https://user-images.githubusercontent.com/42868150/115240238-d4222e00-a11f-11eb-98d1-5a3495192519.png)
@@ -8,8 +10,11 @@ A simple way to add documentation to a plugin/addon.
 
 ## How to use
 This repository is supposed to be something you can add to your plugin as fast as possible.
+Right now it can take a moment to integrate, but it works OKAY.
+
 
 To use this, download the repository. Add the Documentation folder to your plugins folder.
+Because this was designed for dialogic, you will have to fix some dependencies. I hope I can work on this so it works better out of the box.
 
 Before starting to use the files you should add the DocsHelper singleton.
 Do this in the \_ready() func or the \_enter_tree() func of your plugin script:
